@@ -87,4 +87,4 @@ class TestMorse(unittest.TestCase):
         self.assertEqual(decode("... --- ..."), "SOS")
 
     def test_sentence(self):
-        self.assertEqual(sentence = decode(".- .-.. .-.. / -.-- --- ..- / -. . . -.. / .. ... / -.-. --- -.. ."), "result")
+        self.assertEqual(decode(".- .-.. .-.. / -.-- --- ..- / -. . . -.. / .. ... / -.-. --- -.. ."), "ALLYOUNEEDISCODE")
