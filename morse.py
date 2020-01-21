@@ -26,7 +26,8 @@ def decode(message):
         ".--": "W",
         "-..-": "X",
         "-.--": "Y",
-        "--..": "Z"
+        "--..": "Z",
+        "/": " "
         }
 
     signal = message.split(" ")
